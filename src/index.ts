@@ -17,10 +17,10 @@ interface AttrsLineOptions {
   isFocus?: boolean
 }
 
-export const RE_HIGHLIGHT: RegExp = /#?\s*td:highlight/;
-export const RE_DIFF_ADD: RegExp = /#?\s*td:add/;
-export const RE_DIFF_REMOVE: RegExp = /#?\s*td:remove/;
-export const RE_FOCUS: RegExp = /(?<=\/\*|#|\/\/|<%#)\s*td:focus\b/;
+export const RE_HIGHLIGHT: RegExp = /(?<=\/\*|#|\/\/|<%#)\s*shada:highlight\b/;
+export const RE_DIFF_ADD: RegExp = /(?<=\/\*|#|\/\/|<%#)\s*shada:add\b/;
+export const RE_DIFF_REMOVE: RegExp = /(?<=\/\*|#|\/\/|<%#)\s*shada:remove\b/;
+export const RE_FOCUS: RegExp = /(?<=\/\*|#|\/\/|<%#)\s*shada:focus\b/;
 
 function attrsLineOptions(attrs: string): AttrsLineOptions {
   let lineNumbers = false
