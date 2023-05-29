@@ -85,7 +85,7 @@ function buidLineOptions(tokens: IThemedToken[][]) {
   return { lineOptions, isDiff, isFocus }
 }
 
-const MarkdownItShiki: MarkdownIt.PluginWithOptions<Options> = (markdownit, options = {}) => {
+const ShadaIt: MarkdownIt.PluginWithOptions<Options> = (markdownit, options = {}) => {
   const _highlighter = options.highlighter
   const themes: (string | undefined)[] = []
   if (!options.theme) {
@@ -129,4 +129,4 @@ const MarkdownItShiki: MarkdownIt.PluginWithOptions<Options> = (markdownit, opti
   }
 }
 
-export default MarkdownItShiki
+export default ShadaIt
