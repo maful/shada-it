@@ -54,7 +54,7 @@ function buidLineOptions(tokens: IThemedToken[][]) {
       }
 
       if (RE_DIFF_ADD.exec(token.content)) {
-        // add line options to highlight
+        // add line options to diff add
         lineOptions.push({
           line: lineIndex + 1,
           classes: ["line-add"]
@@ -63,7 +63,7 @@ function buidLineOptions(tokens: IThemedToken[][]) {
       }
 
       if (RE_DIFF_REMOVE.exec(token.content)) {
-        // add line options to highlight
+        // add line options to diff remove
         lineOptions.push({
           line: lineIndex + 1,
           classes: ["line-remove"]
@@ -72,7 +72,7 @@ function buidLineOptions(tokens: IThemedToken[][]) {
       }
 
       if (RE_FOCUS.exec(token.content)) {
-        // add line options to highlight
+        // add line options to focus
         lineOptions.push({
           line: lineIndex + 1,
           classes: ["line-focus"]

@@ -1,13 +1,13 @@
 {
   "name": "shada-it",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Complete Syntax Highlighting for Markdown It with Shiki",
   "author": "Maful Prayoga <me@maful.web.id>",
   "license": "MIT",
   "homepage": "https://github.com/maful/shada-it",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maful/shada-it.git"
+    "url": "https://github.com/maful/shada-it.git"
   },
   "bugs": {
     "url": "https://github.com/maful/shada-it/issues"
