@@ -1,5 +1,5 @@
 {
-  "name": "shada-it",
+  "name": "@maful/shada-it",
   "version": "0.4.1",
   "description": "Complete Syntax Highlighting for Markdown It with Shiki",
   "author": "Maful Prayoga <me@maful.web.id>",
