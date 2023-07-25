@@ -6,7 +6,7 @@
 
 Complete Syntax Highlighting for Markdown It with Shiki. Inspired by [markdown-it-shiki](https://github.com/antfu/markdown-it-shiki)
 
-With `shada-it`, you can effortlessly manage your code blocks using simple comments with the `shada:{remove,add,focus}` syntax. It's compatible with various single-line comment styles, including:
+With `shada-it`, you can effortlessly manage your code blocks using simple comments with the `shada:{remove,add,highlight,focus}` syntax. It's compatible with various single-line comment styles, including:
 
 - `#` for Ruby
 - `<%#` for ERB Ruby
